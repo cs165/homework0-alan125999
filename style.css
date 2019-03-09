@@ -1,3 +1,38 @@
 body {
-  font-family: monospace;
+  font-family: 'Noto Sans TC';
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #eee;
+  background-image: url("http://www.freepptbackgrounds.net/wp-content/uploads/2013/01/Light-Blue-Effect-PPT-Backgrounds.jpg");
+  background-size: cover;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  font-size: 1.5em;
+  letter-spacing: 0.4em;
+}
+
+.title {
+  letter-spacing: 0.07em;
+}
+
+.question {
+  letter-spacing: 0.07em;
+  margin-top: 2em;
+}
+
+.paper {
+  max-width: 600px;
+  display: inline-block;
+  margin-top: 0.9em;
+  margin-bottom: 0.9em;
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.12), 0 10px 20px rgba(0,0,0,0.24);
+  background-color: white;
+  padding: 0.7em 4em;
 }
